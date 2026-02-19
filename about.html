@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Anish Palleti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Anish Palleti</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Me</a></li>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="ism.html">About ISM</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="mentor.html">Mentor</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1 class="page-title reveal">About Me</h1>
+
+    <div class="profile-grid reveal">
+      <div class="profile-photo-wrap">
+        <img src="images/profile.png" alt="Anish Palleti">
+      </div>
+      <div>
+        <h2>Personal &amp; Professional Bio</h2>
+        <p class="text-secondary mb-2">
+          My name is Anish Palleti, a junior in ISM 1, and this year I am exploring the topic of Low Income Tax Assistance. I chose this issue because I have past experiences doing taxes for low income people, and I wanted to raise awareness and accessibility to tax resources for them to make the idea of taxes less intimidating.
+        </p>
+        <h3>Mission Statement</h3>
+        <p class="text-secondary mb-2">
+          My mission is to pursue my passion for finance with curiosity and dedication, challenge myself through ISM by growing my skills and knowledge, and use what I learn to make a meaningful impact on others.
+        </p>
+        <h3>Contact</h3>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:anishpalleti@gmail.com">anishpalleti@gmail.com</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/anish-palleti/" target="_blank" rel="noopener noreferrer">
+              <svg class="linkedin-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn Profile
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Anish Palleti. ISM Digital Portfolio.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="scroll-reveal.js"></script>
+</body>
+</html>

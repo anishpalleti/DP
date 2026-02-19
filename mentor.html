@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentor | Anish Palleti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Anish Palleti</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="ism.html">About ISM</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="mentor.html" class="active">Mentor</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1 class="page-title reveal">Mentor</h1>
+
+    <div class="mentor-grid reveal">
+      <div class="mentor-photo-wrap">
+        <img src="images/mentor.png" alt="Ms. Donna Robbins">
+      </div>
+      <div>
+        <h2>Ms. Donna Robbins — My Mentor!</h2>
+        <p class="text-secondary mb-2"><strong>VITA Dallas Site Coordinator</strong></p>
+        <p class="text-secondary">
+          A retired career executive with 35+ years' experience in the financial services industry with Fortune 500 companies Citi, Chase and Freddie Mac. Holds a bachelor's degree from Michigan State University and a master's degree in Logistics from Central Michigan University. Currently volunteering with multiple groups to provide tax return preparation and managerial support through the Volunteer Income Tax Assistance Program (VITA), an arm of the Internal Revenue Service.
+        </p>
+        <p class="text-muted mb-2" style="font-size: 0.9rem;">Mentor Visit: 02/10/2026 — Discussed Final Product Proposal and Timeline.</p>
+        <div class="gratitude-note">
+          <strong>Personal note of gratitude:</strong> Ms. Robbins has been so helpful in my ISM journey by guiding me through my exploration of my field of interest, and she has contributed so many valuable insights to me. I am so excited to continue working on my final product under her guidance!
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Anish Palleti. ISM Digital Portfolio.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="scroll-reveal.js"></script>
+</body>
+</html>

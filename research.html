@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research | Anish Palleti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Anish Palleti</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="ism.html">About ISM</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="mentor.html">Mentor</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    <h1 class="page-title reveal">Research</h1>
+
+    <section class="research-section reveal">
+      <h2>Primary Sources</h2>
+
+      <h3>Interviews</h3>
+      <ul class="source-list">
+        <li class="source-item-with-photo">
+          <img src="images/ey-logo.png" alt="EY" class="source-photo logo">
+          <div><span class="source-label">Mr. Chinni Reddy, Global Client Service Partner at Ernst and Young:</span> Interview on firm finance, personal finance, and career insights.</div>
+        </li>
+        <li class="source-item-with-photo">
+          <img src="images/firouzi.png" alt="Omeed Firouzi" class="source-photo">
+          <div><span class="source-label">Mr. Omeed Firouzi, Professor of Tax Law at Temple University:</span> Insights on low income taxpayer issues and LITC; feedback on tax education product and marketing strategies.</div>
+        </li>
+        <li class="source-item-with-photo">
+          <img src="images/wheeler.png" alt="Derek Wheeler" class="source-photo">
+          <div><span class="source-label">Mr. Derek Wheeler, Professor of Tax Law at the University of Florida:</span> Primary source interview for ISM research.</div>
+        </li>
+      </ul>
+
+      <h3>Mentor Visits</h3>
+      <ul class="source-list">
+        <li><span class="source-label">Final Product Proposal and Timeline (02/10/2026):</span> Discussed final product proposal and timeline with Ms. Donna Robbins.</li>
+      </ul>
+    </section>
+
+    <section class="research-section reveal">
+      <h2>Secondary Sources</h2>
+      <ul class="source-list">
+        <li><span class="source-label">Refund of Consumption Tax to Low-Income People: Impact Assessment Using Difference-in-Differences:</span> Research Assessment 1.</li>
+        <li><span class="source-label">Effects of a tax-time savings intervention on use of alternative financial services among lower-income households:</span> Research Assessment 2.</li>
+        <li><span class="source-label">The High Cost of Return: Tax Filing in the Service Sector:</span> OW Research Assessment 1.</li>
+        <li><span class="source-label">Examining the Volunteer Income Tax Assistance (VITA) Program: Navigating Challenges and Embracing Opportunities:</span> OW Research Assessment 2.</li>
+        <li><span class="source-label">Development Of An Award Winning Volunteer Income Tax Assistance Program: A Case Study:</span> OW Research Assessment 3.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Anish Palleti. ISM Digital Portfolio.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="scroll-reveal.js"></script>
+</body>
+</html>

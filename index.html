@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anish Palleti | ISM Digital Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Anish Palleti</a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="ism.html">About ISM</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="mentor.html">Mentor</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content reveal">
+      <h1>Anish Palleti</h1>
+      <p class="topic">Low Income Tax Assistance</p>
+      <blockquote class="quote">"The best way to get started is to quit talking and begin doing." — Walt Disney</blockquote>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="home-intro reveal">
+      <p class="home-welcome">Welcome to my ISM digital portfolio.</p>
+      <p class="text-secondary">Use the navigation above to explore my background, research, mentor, and projects.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Anish Palleti. ISM Digital Portfolio.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="scroll-reveal.js"></script>
+</body>
+</html>
